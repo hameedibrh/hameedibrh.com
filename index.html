@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<!--
+
+░██████╗░░█████╗░░█████╗░██████╗░  ████████╗░█████╗░  ░██████╗███████╗███████╗  ██╗░░░██╗░█████╗░██╗░░░██╗
+██╔════╝░██╔══██╗██╔══██╗██╔══██╗  ╚══██╔══╝██╔══██╗  ██╔════╝██╔════╝██╔════╝  ╚██╗░██╔╝██╔══██╗██║░░░██║
+██║░░██╗░██║░░██║██║░░██║██║░░██║  ░░░██║░░░██║░░██║  ╚█████╗░█████╗░░█████╗░░  ░╚████╔╝░██║░░██║██║░░░██║
+██║░░╚██╗██║░░██║██║░░██║██║░░██║  ░░░██║░░░██║░░██║  ░╚═══██╗██╔══╝░░██╔══╝░░  ░░╚██╔╝░░██║░░██║██║░░░██║
+╚██████╔╝╚█████╔╝╚█████╔╝██████╔╝  ░░░██║░░░╚█████╔╝  ██████╔╝███████╗███████╗  ░░░██║░░░╚█████╔╝╚██████╔╝
+░╚═════╝░░╚════╝░░╚════╝░╚═════╝░  ░░░╚═╝░░░░╚════╝░  ╚═════╝░╚══════╝╚══════╝  ░░░╚═╝░░░░╚════╝░░╚═════╝░
+
+██╗░░██╗███████╗██████╗░███████╗░░░  ██████╗░░█████╗░██╗░░░░░  ██╗
+██║░░██║██╔════╝██╔══██╗██╔════╝░░░  ██╔══██╗██╔══██╗██║░░░░░  ██║
+███████║█████╗░░██████╔╝█████╗░░░░░  ██████╔╝███████║██║░░░░░  ██║
+██╔══██║██╔══╝░░██╔══██╗██╔══╝░░██╗  ██╔═══╝░██╔══██║██║░░░░░  ╚═╝
+██║░░██║███████╗██║░░██║███████╗╚█║  ██║░░░░░██║░░██║███████╗  ██╗
+╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝╚══════╝░╚╝  ╚═╝░░░░░╚═╝░░╚═╝╚══════╝  ╚═╝
+
+
+____________________________________________________________________________________________________________
+
+
+
+
+██╗░░██╗░█████╗░███╗░░░███╗███████╗███████╗██████╗░  ██╗██████╗░██████╗░░█████╗░██╗░░██╗██╗███╗░░░███╗
+██║░░██║██╔══██╗████╗░████║██╔════╝██╔════╝██╔══██╗  ██║██╔══██╗██╔══██╗██╔══██╗██║░░██║██║████╗░████║
+███████║███████║██╔████╔██║█████╗░░█████╗░░██║░░██║  ██║██████╦╝██████╔╝███████║███████║██║██╔████╔██║
+██╔══██║██╔══██║██║╚██╔╝██║██╔══╝░░██╔══╝░░██║░░██║  ██║██╔══██╗██╔══██╗██╔══██║██╔══██║██║██║╚██╔╝██║
+██║░░██║██║░░██║██║░╚═╝░██║███████╗███████╗██████╔╝  ██║██████╦╝██║░░██║██║░░██║██║░░██║██║██║░╚═╝░██║
+╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░░░░╚═╝╚══════╝╚══════╝╚═════╝░  ╚═╝╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝╚═╝╚═╝░░░░░╚═╝
+
+
+____________________________________________________________________________________________________________
+
+
+
+-->
+
+<html class="no-js" lang="en">
+<head>
+   <meta charset="utf-8">
+	<title>Hameed Ibrahim</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+   <link rel="stylesheet" href="css/base.css">  
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">     
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+	<link rel="icon" type="image/png" href="favicon.png">
+
+</head>
+
+<body id="top">
+   <header>   	
+   	<div class="row">
+
+   		<div class="top-bar">
+   			<a class="menu-toggle" href="#"><span>Menu</span></a>
+
+	   		<div class="logo">
+		         <a href="index.html">Hameed Ibrahim</a>
+		      </div>		      
+
+		   	<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
+						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
+						<li><a class="smoothscroll"  href="#portfolio" title="">Artworks</a></li>
+						<li><a class="smoothscroll"  href="#services" title="">Services</a></li>					
+						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>	
+					</ul>
+				</nav>    		
+   		</div> 
+   		
+   	</div> 		
+   </header>
+
+
+   <section id="intro">   
+
+   	<div class="intro-overlay"></div>	
+
+   	<div class="intro-content">
+   		<div class="row">
+
+   			<div class="col-twelve">
+
+	   			<h5>Hello, World.</h5>
+	   			<h1>I'm Hameed Ibrahim.</h1>
+
+	   			<p class="intro-position">
+	   				<span>Full Stack Developer</span>
+	   				<span>UI/UX Designer</span> 
+					   <span>Student</span> 
+	   			</p>
+
+	   			<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+
+	   		</div>  
+   			
+   		</div>   		 		
+   	</div> 
+
+   	<ul class="intro-social">        
+         <li><a target="_blank"href="https://github.com/hameedibrh"><i class="fa fa-github"></i></a></li>
+         <li><a target="_blank" href="https://behance.net/hameedibrh"><i class="fa fa-behance"></i></a></li>
+         <li><a target="_blank" href="https://instagram.com/hameedibrh"><i class="fa fa-instagram"></i></a></li>
+         <li><a target="_blank" href="https://twitter.com/hameedibrh"><i class="fa fa-twitter"></i></a></li>
+         <li><a target="_blank" href="https://youtube.com/hameedibrh"><i class="fa fa-youtube"></i></a></li>
+         <li><a target="_blank" href="https://facebook.com/hameedibrh"><i class="fa fa-facebook"></i></a></li>
+      </ul>   	
+
+   </section> 
+
+
+ 
+   <section id="about">  
+
+   	<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>About</h5>
+   			<h1>Let me introduce myself.</h1>
+
+   			<div class="intro-info">
+
+   				<img src="images/profile-pic.jpg" alt="Profile Picture">
+
+   				<p class="lead">
+					I'm a 20-year-old student from Chennai, India. I'm currently pursuing my undergraduate degree from <a href="https://nitt.edu">National Institute of Technology, Tiruchirappalli.</a> I have a strong background in Web development, SysAd & UI/UX Design. I'm a tech enthusiast who loves to read and keep things up to date related to tech. In my free time, I do Graphic Design, draw Illustrations and produce video content.
+					
+			</br></p>
+   			</div>   			
+
+   		</div>   		
+   	</div> 
+
+   	<div class="row about-content">
+
+   		<div class="col-six tab-full">
+
+   			<h3>Profile</h3>
+			   <p>I have been involved in software development for a quite long time now and currently working on improving my skills, finding new ways of thinking & problem solving to stay on top on new development.</p>
+
+   			<ul class="info-list">
+   				<li>
+   					<strong>Programming Languages:</strong>
+   					<span>C++ • JavaScript • TypeScript • Python</span>
+   				</li>
+
+				   <li>
+					<strong>Web Development:</strong>
+					<span>HTML • CSS • ReactJS • Angular 11 • NodeJS • Flask</span>
+				</li>
+
+				<li>
+					<strong>App Development:</strong>
+					<span>Flutter</span>
+				</li>
+   				
+				<li>
+					<strong>Tools & Services:</strong>
+					<span>Linux • Git • MySQL • Amazon Web Services</span>
+				</li>
+
+				<li>
+					<strong>UI/UX Design:</strong>
+					<span>Adobe Photoshop • Figma • Adobe XD </span>
+				</li>
+
+   			</ul> 
+
+   		</div>
+
+   		<div class="col-six tab-full">
+
+   			<h3>Skills</h3>
+			   <p>I do a lot of things xD. But I have personally rated myself on few stuffs which I actually do great and confident enough!</p>
+				<ul class="skill-bars">
+				   <li>
+				   	<div class="progress percent85"><span>85%</span></div>
+				   	<strong>Web Development</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent75"><span>75%</span></div>
+				   	<strong>App Development</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent80"><span>80%</span></div>
+				   	<strong>Backend</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent90"><span>90%</span></div>
+				   	<strong>SysAd</strong>
+				   </li>
+				   <li>
+
+				   	<div class="progress percent95"><span>95%</span></div>
+				   	<strong>UI/UX Design</strong>
+				   </li>
+      
+				</ul> 	
+
+   		</div>
+
+   	</div>
+
+   	<div class="row button-section">
+   		<div class="col-twelve">
+			<h3>Checkout all of my software development projects on</h3>
+   			
+   			<a target="_blank"href="https://github.com/hameedibrh" class="button button-primary"><i class="fa fa-github"></i>  GitHub</a>
+   		</div>   		
+   	</div>
+
+   </section> 
+	<section id="resume" class="grey-section">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Resume</h5>
+   			<h1>More of my credentials.</h1>
+
+   			<p class="lead">I have worked on different projects, did internships with different companies and have been an active member at different student clubs and college fests. </p>
+
+   		</div>   		
+   	</div> 
+
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Work Experience</h2>
+
+   		</div>
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Web Developer</h3>
+	   					<p>January 2021 - Present</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Raptee Energy Inc.</h4>
+						<p>Raptee Energy is an Electric Vehicle company which produces electric bikes and cars.</p>
+					</div>
+
+	   			</div> 
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Front-end Developer</h3>
+	   					<p>October 2020 - December 2020</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Tread – Fitness App</h4>
+						<p>Tread is a fitness app to help fitness trainers design and deliver engaging visual workouts whilst being able to track clients at scale.</p>
+					</div>
+
+	   			</div> 
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Head of Design and Web Operations</h3>
+	   					<p>August 2019 – February 2021</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4><a target="_blank" href='http://aaveg.in/20'>Aaveg, NIT Trichy</a></h4>
+						<p>Lead a team of 7 individuals for Aaveg ’20, an annual cultural and sports fest of NIT, Trichy.</p>
+						</div>
+
+	   			</div> 
+
+				   <div class="timeline-block">
+
+					<div class="timeline-ico">
+						<i class="fa fa-graduation-cap"></i>
+					</div>
+
+					<div class="timeline-header">
+						<h3>UI/UX Designer</h3>
+						<p>August 2019 – February 2021</p>
+					</div>
+
+					<div class="timeline-content">
+						<h4><a target="_blank" href='http://www.graphique.co.in'>Graphique</a></h4>
+					 <p><a target="_blank"href='http://www.graphique.co.in'>Graphique</a> is the official Graphic Design club of NIT, Trichy</p>
+					 </div>
+
+				</div> 
+
+				<div class="timeline-block">
+
+					<div class="timeline-ico">
+						<i class="fa fa-graduation-cap"></i>
+					</div>
+
+					<div class="timeline-header">
+						<h3>Video Producer</h3>
+						<p>August 2019 – February 2021</p>
+					</div>
+
+					<div class="timeline-content">
+						<h4><a target="_blank"href='http://www.pixelbugnitt.com'>Pixelbug</a></h4>
+					 <p><a target="_blank"href='htt[://www.pixelbugnitt.com'>Pixelbug</a> is the official Photography and Videography club of NIT, Trichy</p>
+					 </div>
+
+				</div> 
+
+			</div> 
+
+			
+
+
+
+   			</div>   			
+
+   		</div> 
+   		
+   	</div> 
+   	
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Education</h2>
+
+   		</div> 
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Bachelor of Technology (B. Tech)</h3>
+	   					<p>July 2018 - Present</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4><a target="_blank" href='http://nitt.edu'>National Insitute of Technology, Trichy</a></h4>
+						   <p>National Institute of Technology Tiruchirappalli (NIT Trichy or NITT), is a public technical and research university near the city of Tiruchirappalli in Tamil Nadu, India. Founded in 1964, it is one of India's oldest technical universities and is located in a campus of 800 acres. The university is recognized as an Institute of National Importance by the Government of India under the National Institutes of Technology Act, 2007 and is one of the members of the National Institutes of Technology (NITs) system. The university focuses exclusively on science, technology, engineering, management, and architecture.</p>
+						</div>
+
+	   			</div>
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>High School</h3>
+	   					<p>April 2006 - March 2018</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4><a target="_blank" href='http://iisriyadh.com'>IIS, Riyadh</a></h4>
+						   <p>The IISR, formerly known as Embassy of India School, Riyadh is an English-medium Indian school located in Riyadh, Saudi Arabia. It is one of the largest Indian schools with close to 9500 students. The students are locally known as "iisrians" (meaning a student of IISR). </p>
+						</div>
+
+	   			</div> 
+
+	   			</div>			
+
+   		</div> 
+   		
+   	</div>
+		
+	</section> 
+
+
+	<section id="portfolio">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h1>Too much techie stuff? Wait!</h1>
+   			<h5> Before you judge, Check Out Some of</h5>
+			   <h1>My Creative Artworks.</h1>
+
+   		</div>   		
+   	</div>  
+
+   	<div class="row portfolio-content">
+
+   		<div class="col-twelve">
+
+	         <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+
+	         	<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="https://instagram.fmaa1-4.fna.fbcdn.net/v/t51.2885-15/e35/116704263_374828423499528_5462022014653151342_n.jpg?tp=1&_nc_ht=instagram.fmaa1-4.fna.fbcdn.net&_nc_cat=100&_nc_ohc=6PifPWPk8vsAX8r2eS2&edm=AABBvjUAAAAA&ccb=7-4&oh=c1a12f38cf0ff7abaa5793e6168a1d86&oe=6075D760&_nc_sid=83d603" alt="Graphic Inductions 2020">
+	                  <a href="#modal-01" class="overlay">	                  	           
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+		     					       <h3 class="folio-title">Graphic Inductions 2020</h3>	     					    
+		     					    	 <span class="folio-types">
+		     					       	  Motion Graphics
+		     					       </span>
+		     					   </div>	                      	
+	                     </div>                    
+	                  </a>
+	               </div>	               
+	        		</div>
+
+	        		<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="https://instagram.fmaa1-4.fna.fbcdn.net/v/t51.2885-15/e35/s1080x1080/92780256_2347394675562165_2961462481682679747_n.jpg?tp=1&_nc_ht=instagram.fmaa1-4.fna.fbcdn.net&_nc_cat=109&_nc_ohc=FGPxEsDc0vQAX874vAq&edm=AP_V10EAAAAA&ccb=7-4&oh=66458cd34f1b9c12cab9eaf2e77e6614&oe=6097DA1B&_nc_sid=4f375e" alt="36 Days of Type">
+	               	<a href="#modal-02" class="overlay">              		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">36 Days of Type</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Graphic Design
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div>
+
+	            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/festember.jpg" alt="Festember '19 Aftermovie">
+	                  <a href="#modal-03" class="overlay">                  	                 
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Festember '19 Aftermovie</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Video Production
+		     					      </span>		     		
+		     					   </div>  	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div>
+					<div class="bgrid folio-item">
+						<div class="item-wrap">
+							<img src="https://instagram.fmaa1-3.fna.fbcdn.net/v/t51.2885-15/e35/s1080x1080/97265286_287942035546493_6974575462889707578_n.jpg?tp=1&_nc_ht=instagram.fmaa1-3.fna.fbcdn.net&_nc_cat=105&_nc_ohc=Nxsp0rhEZ3gAX88y4i-&edm=AP_V10EAAAAA&ccb=7-4&oh=8037eac484d0ee0c096141afb27666e4&oe=6098C979&_nc_sid=4f375e" alt="My Artworks">
+						   <a href="#modal-04" class="overlay">
+							  <div class="folio-item-table">
+								  <div class="folio-item-cell">
+									  <h3 class="folio-title">My Artworks</h3>	     					    
+											  <span class="folio-types">
+												   Digital Art
+											</span>		     		
+										 </div>	                      	
+							  </div>                    
+						   </a>
+						</div>
+						 </div> 
+
+	        		<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/aavegtheme.JPG" alt="Aaveg '20 Theme Reveal">
+	                  <a href="#modal-05" class="overlay">             		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Aaveg '20 Theme Reveal</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Motion Graphics
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> 
+
+					<div class="bgrid folio-item">
+						<div class="item-wrap">
+							<img src="images/portfolio/aavegaftermovie.jpg" alt="Aaveg '20 Aftermovie">
+						   <a href="#modal-06" class="overlay">             		                  
+							  <div class="folio-item-table">
+								  <div class="folio-item-cell">
+									  <h3 class="folio-title">Aaveg '20 Aftermovie</h3>	     					    
+											  <span class="folio-types">
+												   Video Production
+											</span>		     		
+										 </div> 	                      	
+							  </div>                    
+						   </a>
+						</div>
+						 </div> 
+
+
+	            <div id="modal-01" class="popup-modal slider mfp-hide">	
+
+					<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/CDeFGVIFgr9/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/B-sTlPRFPCy/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/B-sTlPRFPCy/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Hameed I (@hameedibrh)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2020-04-07T20:00:22+00:00">Apr 7, 2020 at 1:00pm PDT</time></p></div></blockquote>
+	<script async src="http://www.instagram.com/embed.js"></script>
+	<div class="link-box">
+		<a target='_blank' href="https://www.instagram.com/p/CDeFGVIFgr9"><i class="fa fa-instagram"></i>  View on Instagram</a>
+		  <a href="#" class="popup-modal-dismiss">Close</a>
+	 </div>		      
+
+				   </div> 
+
+				   <div id="modal-02" class="popup-modal slider mfp-hide">	
+					<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/B-wD91QlXqm/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/B-sTlPRFPCy/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/B-sTlPRFPCy/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Hameed I (@hameedibrh)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2020-04-07T20:00:22+00:00">Apr 7, 2020 at 1:00pm PDT</time></p></div></blockquote>
+	<script async src="http://www.instagram.com/embed.js"></script>
+	<div class="link-box">
+		<a target='_blank' href="https://www.instagram.com/p/B-wD91QlXqm"><i class="fa fa-instagram"></i>  View on Instagram</a>
+		  <a href="#" class="popup-modal-dismiss">Close</a>
+	 </div>		      
+
+
+			         </div>		      
+
+				   </div> 
+
+				   <div id="modal-03" class="popup-modal slider mfp-hide">	
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/NlOfAO2kYFQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<div class="link-box">
+			            <a target='_blank' href="https://www.youtube.com/watch?v=NlOfAO2kYFQ"><i class="fa fa-youtube"></i>  View on YouTube</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>	
+			         </div>		      
+						      
+
+
+				 
+
+				   <div id="modal-04" class="popup-modal slider mfp-hide">	
+
+				     <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/CAFDYPklUyU/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/B-sTlPRFPCy/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/B-sTlPRFPCy/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Hameed I (@hameedibrh)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2020-04-07T20:00:22+00:00">Apr 7, 2020 at 1:00pm PDT</time></p></div></blockquote>
+	<script async src="http://www.instagram.com/embed.js"></script>	
+	<div class="link-box">
+		<a target='_blank' href="https://www.instagram.com/p/CAFDYPklUyU"><i class="fa fa-instagram"></i>  View on Instagram</a>
+				  <a href="#" class="popup-modal-dismiss">Close</a>
+	 </div>		      
+
+
+				   </div> 
+
+				   <div id="modal-05" class="popup-modal slider mfp-hide">	
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/s6YZOTSUGKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<div class="link-box">
+						<a target='_blank' href="https://www.youtube.com/watch?v=s6YZOTSUGKs"><i class="fa fa-youtube"></i>  View on YouTube</a>
+						 <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+					</div>
+
+				   <div id="modal-06" class="popup-modal slider mfp-hide">	
+
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/47WY1aSaLTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<div class="link-box">
+						<a target='_blank' href="https://www.youtube.com/watch?v=47WY1aSaLTU"><i class="fa fa-youtube"></i>  View on YouTube</a>
+						<a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				</div>
+
+		
+			</div>
+
+				   
+
+	         </div> 
+
+   		</div>  
+
+   	</div> 
+		
+	</section> 
+
+
+
+	<section id="services">
+
+		<div class="overlay"></div>
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Services</h5>
+   			<h1>What Can I Do For You?</h1>
+
+			   <p class="lead">I do a lot of things xD. But here few stuffs which I actually do great!</p>
+
+   		</div>   		
+   	</div>
+
+   	<div class="row services-content">
+
+   		<div id="owl-slider" class="owl-carousel services-list">
+
+	      	<div class="service">	
+
+	      		<span class="icon"><i class="icon-earth"></i></span>            
+
+	            <div class="service-content">	
+
+	            	 <h3>Web Development</h3>
+
+	         		
+	         	</div> 	         	 
+
+				</div> 
+
+				<div class="service">	
+
+					<span class="icon"><i class="icon-window"></i></span>                          
+
+	            <div class="service-content">	
+
+	            	<h3>App Development</h3>  
+
+		            
+	            </div>	                          
+
+			   </div> 
+
+			   <div class="service">
+
+			   	<span class="icon"><i class="icon-toggles"></i></span>		            
+
+	            <div class="service-content">
+
+	            	<h3>UI/UX Design</h3>
+
+		          
+
+	            </div> 	            	               
+
+			   </div> 
+
+				<div class="service">
+
+					<span class="icon"><i class="icon-brush"></i></span>	              
+
+	            <div class="service-content">
+
+	            	<h3>Branding</h3>
+
+		            
+	            </div>                
+
+				</div> 
+
+			   <div class="service">
+
+			   	<span class="icon"><i class="icon-chat"></i></span>	            
+
+	            <div class="service-content">
+
+	            	<h3>Product Developement</h3>
+
+
+	            </div>	               
+
+			   </div> 
+
+			   <div class="service">
+
+			   	<span class="icon"><i class="icon-image"></i></span>	   	           
+
+	            <div class="service-content">
+
+	            	 <h3>Video Production</h3>
+
+	            </div>	               
+
+			   </div> 
+
+	      </div> 
+   		
+   	</div> 
+		
+	</section> 
+
+
+	
+	<section id="stats" class="count-up">
+
+		<div class="row">
+			<div class="col-twelve">
+
+				<div class="block-1-6 block-s-1-3 block-tab-1-2 block-mob-full stats-list">
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-pencil-ruler"></i>
+						</div>
+
+						<h3 class="stat-count">
+							17
+						</h3>
+
+						<h5 class="stat-title">
+							Projects Completed
+						</h5>
+
+					</div> 					
+
+	
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-light-bulb"></i>
+						</div>
+
+						<h3 class="stat-count">
+							18000
+						</h3>
+
+						<h5 class="stat-title">
+							Lines of Code
+						</h5>
+
+					</div> 
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-light-bulb"></i>
+						</div>
+
+						<h3 class="stat-count">
+							30
+						</h3>
+
+						<h5 class="stat-title">
+							Crazy Ideas
+						</h5>
+
+					</div> 
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-cup"></i>
+						</div>
+
+						<h3 class="stat-count">
+							1500
+						</h3>
+
+						<h5 class="stat-title">
+							Coffee Cups
+						</h5>
+
+					</div>
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-clock"></i>
+						</div>
+
+						<h3 class="stat-count">
+							4500
+						</h3>
+
+						<h5 class="stat-title">
+							Hours
+						</h5>
+
+					</div>
+					
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-clock"></i>
+						</div>
+
+						<h3 class="stat-count">
+							3000
+						</h3>
+
+						<h5 class="stat-title">
+							Love
+						</h5>
+
+					</div> 
+
+				</div> 
+
+			</div> 
+		</div> 
+
+	</section> 
+
+	
+  
+	<section id="contact">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Contact</h5>
+   			<h1>I'd Love To Hear From You.</h1>
+
+			   <p class='lead'>In case of any questions, legal queries, or if you want to hire me, feel free to fill this form or contact me. </p>
+
+   		</div> 
+   	</div>
+
+   	<div class="row contact-form">
+
+   		<div class="col-twelve">
+
+            
+            <form name="contactForm"  method="post" action="https://formspree.io/f/mrgrgdko">
+      			<fieldset>
+
+                  <div class="form-field">
+ 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+                  </div>
+                  <div class="form-field">
+	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+	               </div>
+				   
+                  <div class="form-field">
+	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+	               </div>                       
+                  <div class="form-field">
+	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+	               </div>                      
+                 <div class="form-field">
+                     <button class="submitform">Submit</button>
+                     <div id="submit-loader">
+                        <div class="text-loader">Sending...</div>                             
+       				      <div class="s-loader">
+								  	<div class="bounce1"></div>
+								  	<div class="bounce2"></div>
+								  	<div class="bounce3"></div>
+								</div>
+							</div>
+                  </div>
+
+      			</fieldset>
+      		</form> 
+
+            
+            <div id="message-warning">            	
+            </div>            
+            
+      		<div id="message-success">
+               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+      		</div>
+
+         </div> 
+   		
+   	</div> 
+
+   	<div class="row contact-info">
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-pin"></i>
+   			</div>
+
+   			<h5>I live in</h5>
+
+   			<p>
+            Chennai<br>
+            Tamil Nadu 600116<br>
+            India
+            </p>
+
+   		</div>
+
+   		<div class="col-four tab-full collapse">
+
+   			<div class="icon">
+   				<i class="icon-mail"></i>
+   			</div>
+
+   			<h5>Email Me At</h5>
+
+   			<p>hameedibrh@gmail.com
+			   </p>
+
+   		</div>
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-phone"></i>
+   			</div>
+
+   			<h5>Call Me At</h5>
+
+   			<p>Phone: (+91) 63855 40655<br>
+			   	
+			   </p>
+
+   		</div>
+   		
+   	</div>
+		
+</section>
+
+
+
+   <footer>
+     	<div class="row">
+
+     		<div class="col-six tab-full pull-right social">
+
+     			<ul class="footer-social">        
+					<li><a target="_blank"href="https://github.com/hameedibrh"><i class="fa fa-github"></i></a></li>
+					<li><a target="_blank" href="https://behance.net/hameedibrh"><i class="fa fa-behance"></i></a></li>
+					<li><a target="_blank" href="https://instagram.com/hameedibrh"><i class="fa fa-instagram"></i></a></li>
+					<li><a target="_blank" href="https://twitter.com/hameedibrh"><i class="fa fa-twitter"></i></a></li>
+					<li><a target="_blank" href="https://youtube.com/hameedibrh"><i class="fa fa-youtube"></i></a></li>
+					<li><a target="_blank" href="https://facebook.com/hameedibrh"><i class="fa fa-facebook"></i></a></li>
+			   </ul> 
+	      		
+	      </div>
+
+      	<div class="col-six tab-full">
+	      	<div class="copyright">
+		        	<span>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | HI Studios</span> 
+		         </div>		                  
+	      	</div>
+
+	      	<div id="go-top">
+		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+		      </div>
+
+      	</div>     	
+   </footer>  
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+   
+
+</body>
+
+</html>
