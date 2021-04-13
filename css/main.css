@@ -1469,7 +1469,7 @@ header .logo a {
   */
 @media only screen and (max-width: 1024px) {
   #intro {
-    background: #151515bd url(../images/comp.gif) no-repeat center;
+    background: #151515bd url(../images/comp.gif) no-repeat center top;
     background-size: cover;
   }
 
@@ -1485,7 +1485,7 @@ header .logo a {
 }
 @media only screen and (max-width: 768px) {
   #intro {
-    background: #151515bd url(../images/comp.gif) no-repeat center;
+    background: #151515bd url(../images/comp.gif) no-repeat center top;
     background-size: cover;
 
     min-height: 660px;
@@ -1508,7 +1508,7 @@ header .logo a {
 }
 @media only screen and (max-width: 600px) {
   #intro {
-    background: #151515bd url(../images/comp.gif) no-repeat center;
+    background: #151515bd url(../images/comp.gif) no-repeat center top;
     background-size: cover;
 
     min-height: 600px;
