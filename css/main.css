@@ -1558,15 +1558,16 @@ header .logo a {
   margin-left: -30px;
 }
 .intro-info img {
-  height: 10rem;
-  width: 10rem;
+  height: 30rem;
+  width: 30rem;
   border-radius: 5%;
   margin: 0.9rem 0 0 0;
-  float: left;
+  left: -200px;
 }
 .intro-info .lead {
+  padding-top: 50px;
   text-align: left;
-  padding-left: 13rem;
+  padding-left: 0rem;
 }
 
 .about-content {
@@ -1631,11 +1632,11 @@ header .logo a {
 }
 @media only screen and (max-width: 768px) {
   .intro-info img {
-    height: 7.8rem;
-    width: 7.8rem;
+    height: 25rem;
+    width: 25rem;
   }
   .intro-info .lead {
-    padding-left: 11rem;
+    padding-left: 0rem;
   }
   .about-content h3 {
     text-align: center;
@@ -1658,8 +1659,8 @@ header .logo a {
     margin-top: 3rem;
   }
   .intro-info img {
-    height: 6.6rem;
-    width: 6.6rem;
+    height: 25rem;
+    width: 25rem;
     float: none;
     display: inline-block;
   }
@@ -2422,7 +2423,7 @@ header .logo a {
 }
 #contact button.submitform:hover,
 #contact button.submitform:focus {
-  background: #cc005f;
+  background: #cc0000;
 }
 #message-warning,
 #message-success {
