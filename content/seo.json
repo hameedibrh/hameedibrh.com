@@ -1,0 +1,20 @@
+{
+  "title": "Hameed Ibrahim - Software Developer & Designer",
+  "description": "Portfolio of Hameed Ibrahim, a software developer and UI/UX designer from Chennai, India. Specializing in web development, app development, and creative design.",
+  "siteUrl": "https://hameedibrh.com",
+  "ogImage": "/images/profile-pic.jpg",
+  "twitterHandle": "@hameedibrh",
+  "personSchema": {
+    "name": "Hameed Ibrahim",
+    "jobTitle": "Software Developer",
+    "url": "https://hameedibrh.com",
+    "sameAs": [
+      "https://github.com/hameedibrh",
+      "https://behance.net/hameedibrh",
+      "https://instagram.com/hameedibrh",
+      "https://twitter.com/hameedibrh",
+      "https://youtube.com/hameedibrh",
+      "https://facebook.com/hameedibrh"
+    ]
+  }
+}

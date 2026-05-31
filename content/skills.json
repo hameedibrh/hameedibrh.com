@@ -1,0 +1,47 @@
+[
+  {
+    "category": "Programming Languages",
+    "skills": [
+      { "name": "Java", "proficiency": 80 },
+      { "name": "JavaScript", "proficiency": 85 },
+      { "name": "Python", "proficiency": 75 },
+      { "name": "C++", "proficiency": 70 }
+    ]
+  },
+  {
+    "category": "Web Development",
+    "skills": [
+      { "name": "HTML/CSS", "proficiency": 90 },
+      { "name": "ReactJS", "proficiency": 85 },
+      { "name": "Angular", "proficiency": 75 },
+      { "name": "NodeJS", "proficiency": 80 },
+      { "name": "Flask", "proficiency": 70 }
+    ]
+  },
+  {
+    "category": "Mobile Development",
+    "skills": [
+      { "name": "Flutter", "proficiency": 75 }
+    ]
+  },
+  {
+    "category": "Tools & Services",
+    "skills": [
+      { "name": "Jenkins", "proficiency": 70 },
+      { "name": "Git", "proficiency": 85 },
+      { "name": "MySQL", "proficiency": 75 },
+      { "name": "AWS", "proficiency": 70 },
+      { "name": "OpenAPI", "proficiency": 75 }
+    ]
+  },
+  {
+    "category": "UI/UX & Design",
+    "skills": [
+      { "name": "Figma", "proficiency": 95 },
+      { "name": "Adobe Photoshop", "proficiency": 90 },
+      { "name": "Premiere Pro", "proficiency": 85 },
+      { "name": "After Effects", "proficiency": 80 },
+      { "name": "Adobe XD", "proficiency": 90 }
+    ]
+  }
+]

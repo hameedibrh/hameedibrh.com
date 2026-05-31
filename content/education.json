@@ -1,0 +1,18 @@
+[
+  {
+    "degree": "Bachelor of Technology (B. Tech)",
+    "institution": "National Institute of Technology, Trichy",
+    "institutionUrl": "https://www.nitt.edu",
+    "startDate": "July 2018",
+    "endDate": "May 2022",
+    "description": "National Institute of Technology Tiruchirappalli (NIT Trichy) is a public technical and research university near the city of Tiruchirappalli in Tamil Nadu, India. Founded in 1964, it is one of India's oldest technical universities."
+  },
+  {
+    "degree": "High School",
+    "institution": "IIS, Riyadh",
+    "institutionUrl": "http://iisriyadh.com",
+    "startDate": "April 2006",
+    "endDate": "March 2018",
+    "description": "The IISR, formerly known as Embassy of India School, Riyadh is an English-medium Indian school located in Riyadh, Saudi Arabia. It is one of the largest Indian schools with close to 9500 students."
+  }
+]

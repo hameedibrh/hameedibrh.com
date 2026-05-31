@@ -1,0 +1,56 @@
+[
+  {
+    "id": "graphique-inductions",
+    "title": "Graphic Inductions 2020",
+    "category": "Motion Graphics",
+    "thumbnail": "/images/portfolio/graphique.png",
+    "thumbnailAlt": "Graphique club inductions 2020 motion graphics poster",
+    "description": "Motion graphics video created for Graphique NIT Trichy's induction event in 2020.",
+    "externalUrl": "https://www.instagram.com/p/CDeFGVIFgr9"
+  },
+  {
+    "id": "36-days-of-type",
+    "title": "36 Days of Type",
+    "category": "Graphic Design",
+    "thumbnail": "/images/portfolio/36dot.jpg",
+    "thumbnailAlt": "36 Days of Type graphic design challenge artwork",
+    "description": "A creative typography challenge where each day a new letter or number is designed with unique artistic styles.",
+    "externalUrl": "https://www.instagram.com/p/B-wD91QlXqm"
+  },
+  {
+    "id": "festember-aftermovie",
+    "title": "Festember '19 Aftermovie",
+    "category": "Video Production",
+    "thumbnail": "/images/portfolio/festember.jpg",
+    "thumbnailAlt": "Festember 2019 cultural fest aftermovie thumbnail",
+    "description": "Official aftermovie for Festember 2019, the annual cultural festival of NIT Trichy.",
+    "externalUrl": "https://www.youtube.com/watch?v=festember19"
+  },
+  {
+    "id": "my-artworks",
+    "title": "My Artworks",
+    "category": "Digital Art",
+    "thumbnail": "/images/portfolio/histudios.jpg",
+    "thumbnailAlt": "Collection of digital art illustrations by Hameed Ibrahim",
+    "description": "A collection of digital illustrations and artwork created using Adobe Photoshop and Illustrator.",
+    "externalUrl": "https://www.behance.net/hameedibrh"
+  },
+  {
+    "id": "aaveg-theme-reveal",
+    "title": "Aaveg '20 Theme Reveal",
+    "category": "Motion Graphics",
+    "thumbnail": "/images/portfolio/aavegtheme.JPG",
+    "thumbnailAlt": "Aaveg 2020 theme reveal motion graphics video",
+    "description": "Theme reveal motion graphics video for Aaveg 2020, the annual cultural and sports fest of NIT Trichy.",
+    "externalUrl": "https://www.instagram.com/p/aaveg20theme"
+  },
+  {
+    "id": "aaveg-aftermovie",
+    "title": "Aaveg '20 Aftermovie",
+    "category": "Video Production",
+    "thumbnail": "/images/portfolio/aavegaftermovie.jpg",
+    "thumbnailAlt": "Aaveg 2020 aftermovie video production thumbnail",
+    "description": "Official aftermovie for Aaveg 2020, capturing the highlights of the annual cultural and sports fest.",
+    "externalUrl": "https://www.youtube.com/watch?v=aaveg20"
+  }
+]

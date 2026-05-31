@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 20, 10, 30;
+  --background-rgb: 255, 251, 247;
+}
+
+.dark {
+  --foreground-rgb: 250, 245, 240;
+  --background-rgb: 15, 10, 20;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+@layer utilities {
+  .glass {
+    @apply backdrop-blur-glass bg-glass-light dark:bg-glass-dark border border-glass-border rounded-2xl shadow-sm;
+  }
+
+  .glass-nav {
+    @apply backdrop-blur-glass bg-white/85 dark:bg-gray-950/80 border-b border-glass-border shadow-sm;
+  }
+
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+}
+
+/* Fallback for browsers without backdrop-filter support */
+@supports not (backdrop-filter: blur(12px)) {
+  .glass {
+    @apply bg-white/95 dark:bg-gray-900/95;
+  }
+
+  .glass-nav {
+    @apply bg-white/95 dark:bg-gray-900/95;
+  }
+}
+
+/* Sparkle animation for Konami code easter egg */
+@keyframes sparkle {
+  0% {
+    opacity: 0;
+    transform: scale(0) translateY(0);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1) translateY(-20px);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.5) translateY(-60px);
+  }
+}
+
+.animate-sparkle {
+  animation: sparkle 2s ease-out forwards;
+}

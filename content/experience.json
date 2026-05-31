@@ -1,0 +1,62 @@
+[
+  {
+    "role": "Technology Associate",
+    "organization": "Citicorp",
+    "startDate": "July 2022",
+    "endDate": "Present",
+    "description": "Citi is an American multinational investment bank and financial services corporation headquartered in New York City."
+  },
+  {
+    "role": "Web Developer",
+    "organization": "Kilofarms Pvt Ltd.",
+    "startDate": "June 2021",
+    "endDate": "July 2021",
+    "description": "Kilofarms is a tech-enabled platform that aims to help farmers overcome inefficiencies in the traditional farming practices and produce residue-free fruits and vegetables."
+  },
+  {
+    "role": "Full-Stack Developer",
+    "organization": "Raptee Energy Inc.",
+    "startDate": "January 2021",
+    "endDate": "April 2021",
+    "description": "Raptee Energy is an Electric Vehicle company which produces electric bikes and cars."
+  },
+  {
+    "role": "Front-end Developer",
+    "organization": "Tread – Fitness App",
+    "startDate": "October 2020",
+    "endDate": "December 2020",
+    "description": "Tread is a fitness app to help fitness trainers design and deliver engaging visual workouts whilst being able to track clients at scale."
+  },
+  {
+    "role": "President",
+    "organization": "Graphique, NIT Trichy",
+    "organizationUrl": "http://graphique.club",
+    "startDate": "August 2019",
+    "endDate": "February 2021",
+    "description": "Managed a team of 50 student designers and developers as the president of NIT Trichy's official design club."
+  },
+  {
+    "role": "Head of Design and Web Operations",
+    "organization": "Aaveg, NIT Trichy",
+    "organizationUrl": "http://aaveg.in/20",
+    "startDate": "August 2019",
+    "endDate": "February 2021",
+    "description": "Lead a team of 7 individuals for Aaveg '20, an annual cultural and sports fest of NIT, Trichy."
+  },
+  {
+    "role": "UI/UX Designer",
+    "organization": "Graphique",
+    "organizationUrl": "http://www.graphique.co.in",
+    "startDate": "August 2019",
+    "endDate": "February 2021",
+    "description": "Graphique is the official Graphic Design club of NIT, Trichy."
+  },
+  {
+    "role": "Video Producer",
+    "organization": "Pixelbug",
+    "organizationUrl": "http://www.pixelbugnitt.com",
+    "startDate": "August 2019",
+    "endDate": "February 2021",
+    "description": "Pixelbug is the official Photography and Videography club of NIT, Trichy."
+  }
+]
