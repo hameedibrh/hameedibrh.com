@@ -11,5 +11,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 1,
     },
+    {
+      url: `${content.seo.siteUrl}/dev-tools/`,
+      lastModified: new Date('2026-06-11'),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
   ];
 }

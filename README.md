@@ -12,6 +12,7 @@ Personal portfolio of **Hameed Ibrahim**, rebuilt in **Next.js** with a glassmor
 - **SEO-first** — metadata, Open Graph, Twitter cards, JSON-LD `Person` schema, `sitemap.xml`, `robots.txt`.
 - **Optimized images** — source art recompressed to WebP (~14 MB → ~0.5 MB).
 - **Geeky easter eggs** — try the terminal (bottom-left), the Konami code (`↑ ↑ ↓ ↓ ← → ← → B A`), and open your browser console.
+- **Dev Tools page** (`/dev-tools`) — 28 client-side developer utilities (JSON/XML format, YAML/CSV/TS converters, Base64/JWT/hash/gzip encoders, UUID/password/QR generators, regex tester, diff, calculator, chmod…). Add a tool by appending one entry to `lib/devtools/registry.tsx`.
 
 ## 🖊️ Editing your content
 
