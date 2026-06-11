@@ -1,0 +1,18 @@
+{
+  "profileText": "I have been involved in software development for quite a long time now and am currently working on improving my skills, finding new ways of thinking & problem solving to stay on top of new development.",
+  "skillsText": "I do a lot of things xD. But I have personally rated myself on a few stacks which I actually do great and am confident enough about!",
+  "info": [
+    { "label": "Programming Languages", "value": "Java • JavaScript • Python • C++" },
+    { "label": "Web Development", "value": "HTML • CSS • ReactJS • Angular • NodeJS • Flask" },
+    { "label": "Mobile-App Development", "value": "Flutter" },
+    { "label": "Tools & Services", "value": "Jenkins • OpenAPI • Git • MySQL • Amazon Web Services" },
+    { "label": "UI/UX & Video Editing", "value": "Adobe CC (Photoshop, Premiere Pro, After Effects) • Figma • Adobe XD" }
+  ],
+  "bars": [
+    { "label": "Backend Development", "value": 85 },
+    { "label": "UI Development", "value": 80 },
+    { "label": "Mobile App Development", "value": 75 },
+    { "label": "SysAd", "value": 80 },
+    { "label": "UI/UX Design", "value": 95 }
+  ]
+}

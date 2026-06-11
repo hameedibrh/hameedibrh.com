@@ -1,0 +1,27 @@
+{
+  "title": "Hameed Ibrahim — Software Developer & Designer",
+  "description": "Portfolio of Hameed Ibrahim, a software developer and UI/UX designer from Chennai, India. Web & app development, SysAd, UI/UX design and video production.",
+  "keywords": ["hameed ibrahim", "hameed", "ibrahim", "hameedibrh", "nit trichy", "nitt", "software developer", "ui ux designer", "chennai"],
+  "siteUrl": "https://hameedibrh.com",
+  "ogImage": "/images/profile-pic.webp",
+  "twitterHandle": "@hameedibrh",
+  "locale": "en_US",
+  "personSchema": {
+    "name": "Hameed Ibrahim",
+    "jobTitle": "Software Developer",
+    "url": "https://hameedibrh.com",
+    "image": "https://hameedibrh.com/images/profile-pic.webp",
+    "email": "hameedibrh@gmail.com",
+    "address": { "city": "Chennai", "region": "Tamil Nadu", "country": "India" },
+    "alumniOf": "National Institute of Technology, Tiruchirappalli",
+    "worksFor": "Citicorp",
+    "sameAs": [
+      "https://github.com/hameedibrh",
+      "https://behance.net/hameedibrh",
+      "https://instagram.com/hameedibrh",
+      "https://twitter.com/hameedibrh",
+      "https://youtube.com/hameedibrh",
+      "https://facebook.com/hameedibrh"
+    ]
+  }
+}

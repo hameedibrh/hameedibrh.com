@@ -1,0 +1,8 @@
+[
+  { "icon": "FaCode", "title": "Web Development", "description": "Modern, responsive websites and web apps built with the latest technologies." },
+  { "icon": "FaMobileScreen", "title": "App Development", "description": "Cross-platform mobile applications with Flutter and native tooling." },
+  { "icon": "FaPenRuler", "title": "UI/UX Design", "description": "Intuitive, beautiful interfaces with a relentless focus on user experience." },
+  { "icon": "FaPalette", "title": "Branding", "description": "Unique brand identities — logos, colour systems and visual guidelines." },
+  { "icon": "FaLightbulb", "title": "Product Development", "description": "End-to-end product delivery from ideation to launch, the agile way." },
+  { "icon": "FaVideo", "title": "Video Production", "description": "High-quality video — motion graphics, aftermovies and content." }
+]

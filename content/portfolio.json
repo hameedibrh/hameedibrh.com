@@ -1,0 +1,68 @@
+[
+  {
+    "id": "graphique-inductions",
+    "title": "Graphic Inductions 2020",
+    "category": "Motion Graphics",
+    "thumbnail": "/images/portfolio/graphique.webp",
+    "thumbnailAlt": "Graphique club inductions 2020 motion graphics poster",
+    "description": "Motion graphics video created for Graphique NIT Trichy's induction event in 2020.",
+    "embedType": "instagram",
+    "embedId": "CDeFGVIFgr9",
+    "externalUrl": "https://www.instagram.com/p/CDeFGVIFgr9"
+  },
+  {
+    "id": "36-days-of-type",
+    "title": "36 Days of Type",
+    "category": "Graphic Design",
+    "thumbnail": "/images/portfolio/36dot.webp",
+    "thumbnailAlt": "36 Days of Type graphic design challenge artwork",
+    "description": "A creative typography challenge — each day a new letter or number designed in a unique artistic style.",
+    "embedType": "instagram",
+    "embedId": "B-wD91QlXqm",
+    "externalUrl": "https://www.instagram.com/p/B-wD91QlXqm"
+  },
+  {
+    "id": "festember-aftermovie",
+    "title": "Festember '19 Aftermovie",
+    "category": "Video Production",
+    "thumbnail": "/images/portfolio/festember.webp",
+    "thumbnailAlt": "Festember 2019 cultural fest aftermovie thumbnail",
+    "description": "Official aftermovie for Festember 2019, the annual cultural festival of NIT Trichy.",
+    "embedType": "youtube",
+    "embedId": "NlOfAO2kYFQ",
+    "externalUrl": "https://www.youtube.com/watch?v=NlOfAO2kYFQ"
+  },
+  {
+    "id": "my-artworks",
+    "title": "My Artworks",
+    "category": "Digital Art",
+    "thumbnail": "/images/portfolio/histudios.webp",
+    "thumbnailAlt": "Collection of digital art illustrations by Hameed Ibrahim",
+    "description": "A collection of digital illustrations and artwork created with Adobe Photoshop and Illustrator.",
+    "embedType": "instagram",
+    "embedId": "CAFDYPklUyU",
+    "externalUrl": "https://www.instagram.com/p/CAFDYPklUyU"
+  },
+  {
+    "id": "aaveg-theme-reveal",
+    "title": "Aaveg '20 Theme Reveal",
+    "category": "Motion Graphics",
+    "thumbnail": "/images/portfolio/aavegtheme.webp",
+    "thumbnailAlt": "Aaveg 2020 theme reveal motion graphics video",
+    "description": "Theme reveal motion graphics video for Aaveg 2020, the annual cultural and sports fest of NIT Trichy.",
+    "embedType": "youtube",
+    "embedId": "s6YZOTSUGKs",
+    "externalUrl": "https://www.youtube.com/watch?v=s6YZOTSUGKs"
+  },
+  {
+    "id": "aaveg-aftermovie",
+    "title": "Aaveg '20 Aftermovie",
+    "category": "Video Production",
+    "thumbnail": "/images/portfolio/aavegaftermovie.webp",
+    "thumbnailAlt": "Aaveg 2020 aftermovie video production thumbnail",
+    "description": "Official aftermovie for Aaveg 2020, capturing the highlights of the annual cultural and sports fest.",
+    "embedType": "youtube",
+    "embedId": "47WY1aSaLTU",
+    "externalUrl": "https://www.youtube.com/watch?v=47WY1aSaLTU"
+  }
+]

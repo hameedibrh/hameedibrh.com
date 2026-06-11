@@ -1,0 +1,14 @@
+{
+  "name": "Hameed Ibrahim",
+  "greeting": "Hello, World.",
+  "roles": ["Software Developer", "UI/UX Designer", "Video Producer"],
+  "tagline": "I build fast, beautiful software — and the visuals that make it sing.",
+  "bio": "I'm a 22-year-old techie from Chennai, India. I completed my undergraduate degree from National Institute of Technology, Tiruchirappalli. I have a strong background in App development, SysAd & UI/UX Design. I'm a tech enthusiast who loves to read and keep things up to date related to tech. In my free time, I do Graphic Design, draw Illustrations and produce video content.",
+  "profileImage": "/images/profile-pic.webp",
+  "profileImageAlt": "Hameed Ibrahim profile photo",
+  "resumeImage": "/images/profile-pic2.webp",
+  "ctaLabel": "More About Me",
+  "ctaTarget": "#about",
+  "githubBlurb": "Check out a few of my software development projects on",
+  "githubUrl": "https://github.com/hameedibrh"
+}
