@@ -1,8 +1,8 @@
 [
-  { "icon": "FaCode", "title": "Web Development", "description": "Modern, responsive websites and web apps built with the latest technologies." },
-  { "icon": "FaMobileScreen", "title": "App Development", "description": "Cross-platform mobile applications with Flutter and native tooling." },
-  { "icon": "FaPenRuler", "title": "UI/UX Design", "description": "Intuitive, beautiful interfaces with a relentless focus on user experience." },
-  { "icon": "FaPalette", "title": "Branding", "description": "Unique brand identities — logos, colour systems and visual guidelines." },
-  { "icon": "FaLightbulb", "title": "Product Development", "description": "End-to-end product delivery from ideation to launch, the agile way." },
-  { "icon": "FaVideo", "title": "Video Production", "description": "High-quality video — motion graphics, aftermovies and content." }
+  { "icon": "FaJava", "title": "Enterprise Backend Development", "description": "Production-grade Java microservices with Spring Boot, Kafka, Redis, and IBM messaging — built for scale and reliability." },
+  { "icon": "FaCode", "title": "Full Stack Development", "description": "End-to-end web applications using Angular, React, Next.js on the frontend and Node.js or Spring on the backend." },
+  { "icon": "FaMoneyBillTransfer", "title": "Banking & Payments Solutions", "description": "Core banking modules, SWIFT ISO 20022 messaging, trade finance workflows, and real-time payment processing." },
+  { "icon": "FaPlug", "title": "API Design & Integration", "description": "RESTful API design, third-party integrations, IBM MQ messaging, and microservice orchestration." },
+  { "icon": "FaBrain", "title": "AI & LLM Integration", "description": "Integrating Claude, OpenAI, and Gemini APIs via MCP workflows to build AI-powered features and intelligent assistants." },
+  { "icon": "FaCloud", "title": "Cloud & DevOps", "description": "AWS, Azure, Docker, OpenShift, and Jenkins CI/CD pipelines — deploying software with confidence and speed." }
 ]

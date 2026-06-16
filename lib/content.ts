@@ -40,7 +40,7 @@ export const navLinks = [
   { id: 'intro', label: 'Home' },
   { id: 'about', label: 'About' },
   { id: 'resume', label: 'Resume' },
-  { id: 'portfolio', label: 'Artworks' },
+  { id: 'portfolio', label: 'Creative' },
   { id: 'services', label: 'Services' },
   { id: 'contact', label: 'Contact' },
 ] as const;

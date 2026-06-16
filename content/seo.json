@@ -1,7 +1,7 @@
 {
-  "title": "Hameed Ibrahim — Software Developer & Designer",
-  "description": "Portfolio of Hameed Ibrahim, a software developer and UI/UX designer from Chennai, India. Web & app development, SysAd, UI/UX design and video production.",
-  "keywords": ["hameed ibrahim", "hameed", "ibrahim", "hameedibrh", "nit trichy", "nitt", "software developer", "ui ux designer", "chennai"],
+  "title": "Hameed Ibrahim — Software Developer | Banking & Payments | AI Solutions",
+  "description": "Portfolio of Hameed Ibrahim, a Software Developer with 4 years of experience in enterprise banking applications, microservices, SWIFT payments, and AI-enabled solutions. Based in Riyadh, Saudi Arabia.",
+  "keywords": ["hameed ibrahim", "hameed", "ibrahim", "hameedibrh", "nit trichy", "software developer", "java developer", "spring boot", "microservices", "banking payments", "swift iso 20022", "full stack developer", "ai integration", "riyadh saudi arabia"],
   "siteUrl": "https://hameedibrh.com",
   "ogImage": "/images/profile-pic.webp",
   "twitterHandle": "@hameedibrh",
@@ -12,16 +12,15 @@
     "url": "https://hameedibrh.com",
     "image": "https://hameedibrh.com/images/profile-pic.webp",
     "email": "hameedibrh@gmail.com",
-    "address": { "city": "Chennai", "region": "Tamil Nadu", "country": "India" },
+    "address": { "city": "Riyadh", "region": "Riyadh Province", "country": "Saudi Arabia" },
     "alumniOf": "National Institute of Technology, Tiruchirappalli",
-    "worksFor": "Citicorp",
+    "worksFor": "The Saudi Investment Bank",
     "sameAs": [
       "https://github.com/hameedibrh",
+      "https://linkedin.com/in/hameedibrh",
       "https://behance.net/hameedibrh",
       "https://instagram.com/hameedibrh",
-      "https://twitter.com/hameedibrh",
-      "https://youtube.com/hameedibrh",
-      "https://facebook.com/hameedibrh"
+      "https://twitter.com/hameedibrh"
     ]
   }
 }

@@ -74,8 +74,8 @@ export default function Resume() {
       <div className="container-x">
         <SectionHeading
           eyebrow="Resume"
-          title="More of my credentials."
-          subtitle="Projects, internships and leadership across companies and NIT Trichy's student clubs and fests."
+          title="My professional journey."
+          subtitle="Enterprise software development across banking, payments, and fintech — plus the leadership experience that shapes how I work."
         />
 
         <div className="mt-12 grid gap-12 lg:grid-cols-2">

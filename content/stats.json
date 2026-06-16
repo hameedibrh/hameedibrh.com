@@ -1,8 +1,8 @@
 [
-  { "icon": "FaPenRuler", "value": 17, "label": "Projects Completed" },
-  { "icon": "FaCode", "value": 18000, "label": "Lines of Code" },
-  { "icon": "FaLightbulb", "value": 30, "label": "Crazy Ideas" },
-  { "icon": "FaMugHot", "value": 1500, "label": "Coffee Cups" },
-  { "icon": "FaClock", "value": 4500, "label": "Hours" },
+  { "icon": "FaBriefcase", "value": 4, "label": "Years of Experience" },
+  { "icon": "FaCode", "value": 50000, "label": "Lines of Code" },
+  { "icon": "FaLayerGroup", "value": 10, "label": "Enterprise Projects" },
+  { "icon": "FaMugHot", "value": 2000, "label": "Coffee Cups" },
+  { "icon": "FaCertificate", "value": 3, "label": "Certifications" },
   { "icon": "FaHeart", "value": 3000, "label": "Love" }
 ]

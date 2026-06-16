@@ -1,8 +1,8 @@
 [
+  { "platform": "LinkedIn", "url": "https://linkedin.com/in/hameedibrh", "icon": "FaLinkedin" },
   { "platform": "GitHub", "url": "https://github.com/hameedibrh", "icon": "FaGithub" },
-  { "platform": "Behance", "url": "https://behance.net/hameedibrh", "icon": "FaBehance" },
   { "platform": "Instagram", "url": "https://instagram.com/hameedibrh", "icon": "FaInstagram" },
   { "platform": "Twitter", "url": "https://twitter.com/hameedibrh", "icon": "FaXTwitter" },
-  { "platform": "YouTube", "url": "https://youtube.com/hameedibrh", "icon": "FaYoutube" },
-  { "platform": "Facebook", "url": "https://facebook.com/hameedibrh", "icon": "FaFacebook" }
+  { "platform": "Behance", "url": "https://behance.net/hameedibrh", "icon": "FaBehance" },
+  { "platform": "YouTube", "url": "https://youtube.com/hameedibrh", "icon": "FaYoutube" }
 ]

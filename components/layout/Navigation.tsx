@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { AnimatePresence, motion } from 'framer-motion';
 import { FiMenu, FiX } from 'react-icons/fi';
+import Image from 'next/image';
 import { navLinks, content } from '@/lib/content';
 import ThemeToggle from '../ui/ThemeToggle';
 
@@ -62,8 +63,14 @@ export default function Navigation() {
           }`}
         >
           <a href="/" className="group flex items-center gap-2 font-bold tracking-tight">
-            <span className="grid h-9 w-9 place-items-center rounded-full text-sm font-black text-white [background:var(--accent-grad)]">
-              HI
+            <span className="grid h-9 w-9 place-items-center overflow-hidden rounded-full [background:var(--accent-grad)]">
+              <Image
+                src="/images/logo.png"
+                alt="HI logo"
+                width={22}
+                height={22}
+                className="object-contain"
+              />
             </span>
             <span className="hidden sm:inline">{content.personal.name}</span>
           </a>

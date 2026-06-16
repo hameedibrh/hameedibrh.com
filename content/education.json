@@ -1,18 +1,18 @@
 [
   {
-    "degree": "Bachelor of Technology (B. Tech)",
+    "degree": "Bachelor of Technology — Production Engineering (Minor: Computer Applications)",
     "institution": "National Institute of Technology, Trichy",
     "institutionUrl": "https://www.nitt.edu",
     "startDate": "July 2018",
     "endDate": "May 2022",
-    "description": "NIT Tiruchirappalli is a public technical and research university in Tamil Nadu, India. Founded in 1964, it is one of India's oldest technical universities and an Institute of National Importance."
+    "description": "First Class graduate from NIT Tiruchirappalli — one of India's premier technical universities and an Institute of National Importance. Minor in Computer Applications, with a focus on software development alongside core engineering fundamentals. Winner of the Pragyan Hackathon 2022."
   },
   {
     "degree": "High School",
-    "institution": "IIS, Riyadh",
+    "institution": "International Indian School, Riyadh",
     "institutionUrl": "http://iisriyadh.com",
     "startDate": "April 2006",
     "endDate": "March 2018",
-    "description": "The International Indian School Riyadh is an English-medium Indian school in Riyadh, Saudi Arabia — one of the largest Indian schools, with close to 9,500 students."
+    "description": "One of the largest Indian schools globally with close to 9,500 students, located in Riyadh, Saudi Arabia. Strong foundation in sciences and mathematics leading to engineering studies."
   }
 ]

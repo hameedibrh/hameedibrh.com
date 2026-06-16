@@ -1,18 +1,19 @@
 {
-  "profileText": "I have been involved in software development for quite a long time now and am currently working on improving my skills, finding new ways of thinking & problem solving to stay on top of new development.",
-  "skillsText": "I do a lot of things xD. But I have personally rated myself on a few stacks which I actually do great and am confident enough about!",
+  "profileText": "Software Developer with 4 years of experience building enterprise banking applications. I specialize in Java microservices, full-stack development, and banking domain expertise spanning Payments, Trade Finance, AML, and Risk Management. I'm passionate about building reliable, scalable systems and integrating AI into production workflows.",
+  "skillsText": "I've worked across the full stack — from enterprise Java backends to Angular/React frontends — and I'm comfortable in the cloud, on the command line, and wiring up LLM APIs.",
   "info": [
-    { "label": "Programming Languages", "value": "Java • JavaScript • Python • C++" },
-    { "label": "Web Development", "value": "HTML • CSS • ReactJS • Angular • NodeJS • Flask" },
-    { "label": "Mobile-App Development", "value": "Flutter" },
-    { "label": "Tools & Services", "value": "Jenkins • OpenAPI • Git • MySQL • Amazon Web Services" },
-    { "label": "UI/UX & Video Editing", "value": "Adobe CC (Photoshop, Premiere Pro, After Effects) • Figma • Adobe XD" }
+    { "label": "Programming Languages", "value": "Java • TypeScript • JavaScript • Python • C++ • HTML/CSS" },
+    { "label": "Backend & Microservices", "value": "Spring Boot • Kafka • Redis • IBM MQ • IBM WebSphere • Node.js • Elastic" },
+    { "label": "Frontend", "value": "Angular • React.js • Next.js • React Native" },
+    { "label": "Cloud & DevOps", "value": "AWS • Azure • Docker • OpenShift • Jenkins • Terraform • Linux" },
+    { "label": "Databases", "value": "SQL Server • IBM Db2 • Oracle • MySQL" },
+    { "label": "AI & Integration", "value": "MCP Integration • Claude API • OpenAI API • Gemini API • LLM Workflows" }
   ],
   "bars": [
-    { "label": "Backend Development", "value": 85 },
-    { "label": "UI Development", "value": 80 },
-    { "label": "Mobile App Development", "value": 75 },
-    { "label": "SysAd", "value": 80 },
-    { "label": "UI/UX Design", "value": 95 }
+    { "label": "Enterprise Backend (Java / Spring)", "value": 92 },
+    { "label": "Full Stack Development", "value": 82 },
+    { "label": "Banking & Payments Domain", "value": 90 },
+    { "label": "Cloud & DevOps", "value": 75 },
+    { "label": "AI & LLM Integration", "value": 72 }
   ]
 }

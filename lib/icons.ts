@@ -8,6 +8,7 @@ import {
   FaXTwitter,
   FaYoutube,
   FaFacebook,
+  FaLinkedin,
   FaCode,
   FaMobileScreen,
   FaPenRuler,
@@ -17,6 +18,16 @@ import {
   FaMugHot,
   FaClock,
   FaHeart,
+  FaServer,
+  FaMoneyBillTransfer,
+  FaPlug,
+  FaBrain,
+  FaCloud,
+  FaBriefcase,
+  FaLayerGroup,
+  FaCertificate,
+  FaBuilding,
+  FaJava,
 } from 'react-icons/fa6';
 
 const icons: Record<string, IconType> = {
@@ -26,6 +37,7 @@ const icons: Record<string, IconType> = {
   FaXTwitter,
   FaYoutube,
   FaFacebook,
+  FaLinkedin,
   FaCode,
   FaMobileScreen,
   FaPenRuler,
@@ -35,6 +47,16 @@ const icons: Record<string, IconType> = {
   FaMugHot,
   FaClock,
   FaHeart,
+  FaServer,
+  FaMoneyBillTransfer,
+  FaPlug,
+  FaBrain,
+  FaCloud,
+  FaBriefcase,
+  FaLayerGroup,
+  FaCertificate,
+  FaBuilding,
+  FaJava,
 };
 
 export function getIcon(name: string): IconType {

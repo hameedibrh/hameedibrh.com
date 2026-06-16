@@ -1,31 +1,24 @@
 [
   {
-    "role": "Technology Associate",
-    "organization": "Citicorp",
-    "startDate": "July 2022",
+    "role": "Software Developer",
+    "organization": "The Saudi Investment Bank",
+    "startDate": "October 2025",
     "endDate": "Present",
-    "description": "Citi is an American multinational investment bank and financial services corporation headquartered in New York City."
+    "description": "Working on Payments Manager & Trade Finance modules for enterprise core banking operations using Java, Spring Frameworks, IBM MQ, SQL Server, IBM Db2, and IBM WebSphere. Built microservices for the SWIFT MT→MX ISO 20022 (CBPR+) migration and engineered real-time sanction screening by integrating an external Watchlist system via AMLS, delivering an end-to-end compliance solution from concept to production."
   },
   {
-    "role": "Web Developer",
-    "organization": "Kilofarms Pvt Ltd.",
-    "startDate": "June 2021",
-    "endDate": "July 2021",
-    "description": "Kilofarms is a tech-enabled platform that aims to help farmers overcome inefficiencies in traditional farming practices and produce residue-free fruits and vegetables."
+    "role": "Software Programming Analyst",
+    "organization": "Citi Bank",
+    "startDate": "July 2022",
+    "endDate": "September 2025",
+    "description": "Built and maintained CEAM Attestation & Workflow and Product Risk Monitoring applications for Citi's enterprise-wide risk inventory using Java, Spring, Kafka, Redis, and Angular. Boosted app responsiveness by 40% via async/batch processing, hardened security with JWT auth and RBAC, reached 85%+ SonarQube coverage, and accelerated delivery 2× with CI/CD pipelines on Jenkins and OpenShift."
   },
   {
-    "role": "Full-Stack Developer",
+    "role": "Software Development Intern",
     "organization": "Raptee Energy Inc.",
     "startDate": "January 2021",
-    "endDate": "April 2021",
-    "description": "Raptee Energy is an Electric Vehicle company which produces electric bikes and cars."
-  },
-  {
-    "role": "Front-end Developer",
-    "organization": "Tread – Fitness App",
-    "startDate": "October 2020",
-    "endDate": "December 2020",
-    "description": "Tread is a fitness app that helps fitness trainers design and deliver engaging visual workouts whilst tracking clients at scale."
+    "endDate": "October 2021",
+    "description": "Built a serverless EV dashboard (Fossil) on AWS using Next.js, featuring Vehicle Tracking, Remote Monitoring, OTA updates, and Payment Gateway integration. Architected the data pipeline from raw vehicle telemetry into actionable insights using AWS EC2, DynamoDB, API Gateway, and Lambda Functions."
   },
   {
     "role": "President",
@@ -33,30 +26,14 @@
     "organizationUrl": "http://graphique.club",
     "startDate": "August 2019",
     "endDate": "February 2021",
-    "description": "Managed a team of 50 student designers and developers as the president of NIT Trichy's official design club, including budgets, member activities and club operations."
+    "description": "Led a team of 50 student designers and developers as president of NIT Trichy's official design club — managing budgets, member activities, and club operations across multiple large-scale projects."
   },
   {
-    "role": "Head of Design and Web Operations",
+    "role": "Head of Design & Web Operations",
     "organization": "Aaveg, NIT Trichy",
     "organizationUrl": "http://aaveg.in/20",
     "startDate": "August 2019",
     "endDate": "February 2021",
-    "description": "Led a team of 7 individuals for Aaveg '20, the annual cultural and sports fest of NIT Trichy."
-  },
-  {
-    "role": "UI/UX Designer",
-    "organization": "Graphique",
-    "organizationUrl": "http://www.graphique.co.in",
-    "startDate": "August 2019",
-    "endDate": "February 2021",
-    "description": "Graphique is the official Graphic Design club of NIT Trichy."
-  },
-  {
-    "role": "Video Producer",
-    "organization": "Pixelbug",
-    "organizationUrl": "http://www.pixelbugnitt.com",
-    "startDate": "August 2019",
-    "endDate": "February 2021",
-    "description": "Pixelbug is the official Photography and Videography club of NIT Trichy."
+    "description": "Led a team of 7 for Aaveg '20, the annual cultural and sports fest of NIT Trichy — overseeing all design deliverables and web operations for the event."
   }
 ]

@@ -17,9 +17,9 @@ export default function Portfolio() {
     <section id="portfolio" className="section-pad">
       <div className="container-x">
         <SectionHeading
-          eyebrow="Artworks"
-          title="Too much techie stuff? Wait!"
-          subtitle="Before you judge — check out some of my creative work in design, motion and video."
+          eyebrow="Creative Work"
+          title="There&apos;s a creative side too."
+          subtitle="Outside of enterprise code, I&apos;ve produced design, motion graphics and video work — a nod to the multidisciplinary background I bring to every project."
           center
         />
 
