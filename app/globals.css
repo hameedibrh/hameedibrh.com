@@ -1,17 +1,32 @@
 @import 'tailwindcss';
 
+/* Animatable hue property — lets CSS interpolate the number so all
+   hsl()-derived colors shift together as a single animation target. */
+@property --accent-hue {
+  syntax: '<number>';
+  inherits: true;
+  initial-value: 355; /* blood red */
+}
+
+@keyframes hue-cycle {
+  to { --accent-hue: 715; } /* 355 + 360 = full spectrum, lands back on blood red */
+}
+
 /* ------------------------------------------------------------------ *
  *  Design tokens — dark is the default, light overrides via [data-theme]
  * ------------------------------------------------------------------ */
 :root {
+  /* Slow hue rotation — one full cycle every 90 s */
+  animation: hue-cycle 90s linear infinite;
+
   --bg: #0a0a0f;
   --bg-elev: #0f0f17;
   --text: #f4f5fb;
   --text-muted: #a2a4b5;
   --text-faint: #6a6c7e;
 
-  --accent-1: #4f8cff; /* blue  */
-  --accent-2: #a855f7; /* violet */
+  --accent-1: hsl(var(--accent-hue), 95%, 52%);
+  --accent-2: hsl(calc(var(--accent-hue) + 50), 88%, 56%);
   --accent-grad: linear-gradient(120deg, var(--accent-1), var(--accent-2));
 
   /* glassmorphism */
@@ -22,12 +37,12 @@
   --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.45);
   --glass-blur: 18px;
 
-  /* aurora blobs */
-  --aurora-1: rgba(79, 140, 255, 0.45);
-  --aurora-2: rgba(168, 85, 247, 0.4);
-  --aurora-3: rgba(56, 189, 248, 0.3);
+  /* aurora blobs — shift with the hue cycle */
+  --aurora-1: hsla(var(--accent-hue), 95%, 50%, 0.5);
+  --aurora-2: hsla(calc(var(--accent-hue) + 50), 88%, 55%, 0.45);
+  --aurora-3: hsla(calc(var(--accent-hue) - 25), 80%, 48%, 0.35);
 
-  --ring: rgba(79, 140, 255, 0.55);
+  --ring: hsla(var(--accent-hue), 95%, 52%, 0.55);
 }
 
 [data-theme='light'] {
@@ -43,9 +58,9 @@
   --glass-highlight: rgba(255, 255, 255, 0.9);
   --glass-shadow: 0 8px 32px rgba(40, 50, 90, 0.12);
 
-  --aurora-1: rgba(79, 140, 255, 0.35);
-  --aurora-2: rgba(168, 85, 247, 0.3);
-  --aurora-3: rgba(56, 189, 248, 0.28);
+  --aurora-1: hsla(var(--accent-hue), 95%, 50%, 0.3);
+  --aurora-2: hsla(calc(var(--accent-hue) + 50), 88%, 55%, 0.25);
+  --aurora-3: hsla(calc(var(--accent-hue) - 25), 80%, 48%, 0.22);
 }
 
 /* ------------------------------------------------------------------ *
@@ -216,6 +231,7 @@ h1, h2, h3, h4, h5 {
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
+  :root { animation: none; }
   .aurora::before, .aurora::after, .aurora span { animation: none; }
   *, *::before, *::after {
     animation-duration: 0.001ms !important;

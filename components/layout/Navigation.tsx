@@ -62,17 +62,16 @@ export default function Navigation() {
             scrolled ? 'glass glass-strong' : 'bg-transparent'
           }`}
         >
-          <a href="/" className="group flex items-center gap-2 font-bold tracking-tight">
-            <span className="grid h-9 w-9 place-items-center overflow-hidden rounded-full [background:var(--accent-grad)]">
+          <a href="/" aria-label="Home">
+            <span className="grid h-10 w-10 place-items-center overflow-hidden rounded-full [background:var(--accent-grad)]">
               <Image
-                src="/images/logo.png"
+                src="/favicon.png"
                 alt="HI logo"
-                width={22}
-                height={22}
+                width={26}
+                height={26}
                 className="object-contain"
               />
             </span>
-            <span className="hidden sm:inline">{content.personal.name}</span>
           </a>
 
           <ul className="hidden items-center gap-1 md:flex">
