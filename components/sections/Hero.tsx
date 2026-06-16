@@ -84,116 +84,85 @@ export default function Hero() {
         }}
       />
 
-      <div className="relative z-10 flex w-full max-w-6xl flex-col-reverse items-center gap-12 lg:flex-row lg:items-center lg:justify-between">
-        {/* Text column */}
-        <motion.div
-          className="flex-1 text-center [transform-style:preserve-3d] lg:text-left"
-          style={{ rotateX, rotateY }}
+      <motion.div
+        className="relative z-10 text-center [transform-style:preserve-3d]"
+        style={{ rotateX, rotateY }}
+      >
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          className="mb-4 font-mono text-sm tracking-widest text-[var(--text-muted)]"
         >
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="mb-4 font-mono text-sm tracking-widest text-[var(--text-muted)]"
-          >
-            {personal.greeting}
-          </motion.p>
+          {personal.greeting}
+        </motion.p>
 
-          <motion.h1
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.1 }}
-            className="text-balance text-5xl font-black sm:text-7xl lg:text-8xl"
-          >
-            I&apos;m {personal.name.split(' ')[0]}
-            <br className="sm:hidden" />
-            <span className="hidden sm:inline"> </span>
-            {personal.name.split(' ').slice(1).join(' ')}.
-          </motion.h1>
+        <motion.h1
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.1 }}
+          className="text-balance text-5xl font-black sm:text-7xl lg:text-8xl"
+        >
+          I&apos;m {personal.name.split(' ')[0]}
+          <br className="sm:hidden" />
+          <span className="hidden sm:inline"> </span>
+          {personal.name.split(' ').slice(1).join(' ')}.
+        </motion.h1>
 
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.3 }}
-            className="mt-6 flex min-h-[2.5rem] items-center justify-center text-2xl font-semibold sm:text-3xl lg:justify-start"
-          >
-            <TypingRoles />
-          </motion.div>
-
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.6, delay: 0.5 }}
-            className="mx-auto mt-6 max-w-xl text-pretty text-[var(--text-muted)] lg:mx-0"
-          >
-            {personal.tagline}
-          </motion.p>
-
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.6 }}
-            className="mt-9 flex flex-wrap items-center justify-center gap-4 lg:justify-start"
-          >
-            <Button href={personal.ctaTarget}>{personal.ctaLabel}</Button>
-            <Button href="#contact" variant="ghost">
-              Let&apos;s talk
-            </Button>
-          </motion.div>
-
-          <motion.ul
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.6, delay: 0.8 }}
-            className="mt-10 flex items-center justify-center gap-3 lg:justify-start"
-          >
-            {social.map((s) => {
-              const Icon = getIcon(s.icon);
-              return (
-                <li key={s.platform}>
-                  <a
-                    href={s.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={s.platform}
-                    className="glass grid h-11 w-11 place-items-center rounded-full text-[var(--text-muted)] transition-all hover:-translate-y-1 hover:text-[var(--text)]"
-                  >
-                    <Icon size={18} />
-                  </a>
-                </li>
-              );
-            })}
-          </motion.ul>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.3 }}
+          className="mt-6 flex min-h-[2.5rem] items-center justify-center text-2xl font-semibold sm:text-3xl"
+        >
+          <TypingRoles />
         </motion.div>
 
-        {/* Portrait column */}
-        <motion.div
-          initial={{ opacity: 0, x: 40 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
-          className="relative flex-shrink-0"
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.6, delay: 0.5 }}
+          className="mx-auto mt-6 max-w-xl text-pretty text-[var(--text-muted)]"
         >
-          {/* Gradient glow behind card */}
-          <div
-            className="absolute inset-0 -z-10 scale-110 rounded-3xl blur-3xl"
-            style={{ background: 'var(--accent-grad)', opacity: 0.3 }}
-          />
-          <div className="glass overflow-hidden rounded-3xl p-1" style={{ boxShadow: '0 0 40px var(--aurora-1)' }}>
-            <video
-              autoPlay
-              loop
-              muted
-              playsInline
-              width={320}
-              height={420}
-              className="rounded-[1.25rem] object-cover"
-            >
-              <source src="/images/compcrop.webm" type="video/webm" />
-              <source src="/images/compcrop.mp4" type="video/mp4" />
-            </video>
-          </div>
+          {personal.tagline}
+        </motion.p>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.6 }}
+          className="mt-9 flex flex-wrap items-center justify-center gap-4"
+        >
+          <Button href={personal.ctaTarget}>{personal.ctaLabel}</Button>
+          <Button href="#contact" variant="ghost">
+            Let&apos;s talk
+          </Button>
         </motion.div>
-      </div>
+
+        <motion.ul
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.6, delay: 0.8 }}
+          className="mt-10 flex items-center justify-center gap-3"
+        >
+          {social.map((s) => {
+            const Icon = getIcon(s.icon);
+            return (
+              <li key={s.platform}>
+                <a
+                  href={s.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={s.platform}
+                  className="glass grid h-11 w-11 place-items-center rounded-full text-[var(--text-muted)] transition-all hover:-translate-y-1 hover:text-[var(--text)]"
+                >
+                  <Icon size={18} />
+                </a>
+              </li>
+            );
+          })}
+        </motion.ul>
+      </motion.div>
 
       <motion.a
         href="#about"

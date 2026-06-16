@@ -17,7 +17,7 @@
  * ------------------------------------------------------------------ */
 :root {
   /* Slow hue rotation — one full cycle every 90 s */
-  animation: hue-cycle 90s linear infinite;
+  animation: hue-cycle 12s linear infinite;
 
   --bg: #0a0a0f;
   --bg-elev: #0f0f17;
