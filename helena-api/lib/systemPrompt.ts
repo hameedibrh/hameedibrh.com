@@ -1,4 +1,4 @@
-import profile from '../data/profile.json' with { type: 'json' };
+import profile from '../data/profile.json';
 
 export const SYSTEM_PROMPT = `You are Helena, the guide embedded on ${profile.name}'s personal portfolio site. You help visitors — recruiters, hiring managers, collaborators, or the just-curious — understand who ${profile.name.split(' ')[0]} is, what he's built, and how to reach him.
 
