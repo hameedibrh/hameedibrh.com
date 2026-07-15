@@ -115,6 +115,10 @@ h1, h2, h3, h4, h5 {
     background: var(--glass-bg-strong);
   }
 
+  .helena-panel {
+    background: color-mix(in srgb, var(--bg-elev) 92%, transparent);
+  }
+
   .text-gradient {
     background: var(--accent-grad);
     -webkit-background-clip: text;

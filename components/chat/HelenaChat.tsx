@@ -40,7 +40,7 @@ export default function HelenaChat() {
           <motion.div
             role="dialog"
             aria-label="Chat with Helena"
-            className="glass glass-strong fixed bottom-24 right-4 z-[90] flex h-[min(70vh,560px)] w-[min(92vw,380px)] flex-col overflow-hidden rounded-3xl"
+            className="glass helena-panel fixed bottom-24 right-4 z-[90] flex h-[min(70vh,560px)] w-[min(92vw,380px)] flex-col overflow-hidden rounded-3xl"
             initial={{ opacity: 0, y: 20, scale: 0.96 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 12, scale: 0.97 }}
