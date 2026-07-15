@@ -14,6 +14,7 @@ Streaming LLM proxy for **Helena**, the chat assistant embedded on [hameedibrh.c
 4. Set environment variables in the Vercel project (see `.env.example`):
    - `LLM_API_KEY` — your provider API key
    - `LLM_MODEL` — the model ID to call
+   - `LLM_BASE_URL` — the provider's OpenAI-compatible API base URL. **Required** — the client is OpenAI-compatible, and its built-in default endpoint won't accept a non-default provider's key.
    - `UPSTASH_REDIS_REST_URL` / `UPSTASH_REDIS_REST_TOKEN` — from step 1. **Required** — without these the endpoint returns 503 for everyone (see Rate limiting below).
 5. Deploy. Note the resulting URL, e.g. `https://helena-api.vercel.app`
 6. In the main site repo, set `NEXT_PUBLIC_HELENA_API_URL=https://helena-api.vercel.app/api/chat` (see root `.env.production`) and rebuild.
@@ -48,10 +49,10 @@ IP is read from `x-forwarded-for` (Vercel sets this reliably at the edge). It's 
 
 ## Cost / abuse notes
 
-- `LLM_API_KEY` / `LLM_MODEL` are required env vars (503 if unset) — the model choice lives in Vercel config, not source.
+- `LLM_API_KEY` / `LLM_MODEL` / `LLM_BASE_URL` are required env vars (503 if any is unset) — provider and model choice live in Vercel config, not source.
 - Each request caps at 20 messages of history and 2000 characters per message; replies cap at 1024 output tokens.
 - With the daily caps above, worst-case spend is bounded even under sustained abuse — check current pricing for your chosen model if you want a dollar ceiling and tune `globalDaily` accordingly.
 
 ## Note on the underlying SDK
 
-`api/chat.ts` imports `@anthropic-ai/sdk` (aliased to `LLMClient` in code) because that's the actual provider library in use — this one dependency name is the sole unavoidable reference to it in this project; nothing else in source, docs, or the frontend widget names the provider.
+`api/chat.ts` imports the `openai` package (aliased to `LLMClient` in code) as a generic OpenAI-compatible client — pointed at `LLM_BASE_URL` rather than OpenAI's own API. This works with any provider that speaks the OpenAI chat-completions wire format, including proxies that front other model providers under that same format.

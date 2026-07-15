@@ -1,4 +1,4 @@
-import LLMClient from '@anthropic-ai/sdk';
+import LLMClient from 'openai';
 import { SYSTEM_PROMPT } from '../lib/systemPrompt';
 import { checkRateLimit, clientIp } from '../lib/rateLimit';
 
@@ -74,28 +74,27 @@ export default async function handler(req: Request): Promise<Response> {
     });
   }
 
-  const model = process.env.LLM_MODEL;
-  if (!process.env.LLM_API_KEY || !model) {
+  const { LLM_API_KEY, LLM_MODEL, LLM_BASE_URL } = process.env;
+  if (!LLM_API_KEY || !LLM_MODEL || !LLM_BASE_URL) {
     return new Response('Service not configured', { status: 503, headers });
   }
 
-  const client = new LLMClient({ apiKey: process.env.LLM_API_KEY });
+  const client = new LLMClient({ apiKey: LLM_API_KEY, baseURL: LLM_BASE_URL });
 
-  const llmStream = client.messages.stream({
-    model,
+  const llmStream = await client.chat.completions.create({
+    model: LLM_MODEL,
     max_tokens: 1024,
-    system: SYSTEM_PROMPT,
-    messages: payload.messages,
+    stream: true,
+    messages: [{ role: 'system', content: SYSTEM_PROMPT }, ...payload.messages],
   });
 
   const encoder = new TextEncoder();
   const responseStream = new ReadableStream({
     async start(controller) {
       try {
-        for await (const event of llmStream) {
-          if (event.type === 'content_block_delta' && event.delta.type === 'text_delta') {
-            controller.enqueue(encoder.encode(event.delta.text));
-          }
+        for await (const chunk of llmStream) {
+          const text = chunk.choices[0]?.delta?.content;
+          if (text) controller.enqueue(encoder.encode(text));
         }
       } catch {
         controller.enqueue(encoder.encode('\n\n[Helena hit a snag — please try again in a moment.]'));
