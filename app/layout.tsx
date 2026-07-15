@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next';
 import { Poppins, JetBrains_Mono } from 'next/font/google';
 import './globals.css';
 import { ThemeProvider, themeInitScript } from '@/components/ThemeProvider';
+import HelenaChat from '@/components/chat/HelenaChat';
 import { content } from '@/lib/content';
 
 const poppins = Poppins({
@@ -96,6 +97,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </div>
         <div className="grid-overlay" aria-hidden />
         <ThemeProvider>{children}</ThemeProvider>
+        <HelenaChat />
       </body>
     </html>
   );

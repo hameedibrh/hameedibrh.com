@@ -1,0 +1,188 @@
+{
+  "name": "Hameed Ibrahim",
+  "tagline": "I build enterprise-grade software — from core banking systems to AI-powered applications.",
+  "bio": "Software Developer with 4 years of experience building enterprise banking applications across Payments, Trade Finance, AML, and Risk Management. Currently at The Saudi Investment Bank, working on SWIFT ISO 20022 migration and real-time sanction screening. I also build AI-enabled solutions, integrating LLM APIs and MCP workflows into production products.",
+  "roles": [
+    "Software Developer",
+    "Full Stack Engineer",
+    "Banking & Payments Specialist",
+    "AI Solutions Builder"
+  ],
+  "about": {
+    "profileText": "Software Developer with 4 years of experience building enterprise banking applications. I specialize in Java microservices, full-stack development, and banking domain expertise spanning Payments, Trade Finance, AML, and Risk Management. I'm passionate about building reliable, scalable systems and integrating AI into production workflows.",
+    "skillsText": "I've worked across the full stack — from enterprise Java backends to Angular/React frontends — and I'm comfortable in the cloud, on the command line, and wiring up LLM APIs.",
+    "skills": [
+      {
+        "label": "Programming Languages",
+        "value": "Java • TypeScript • JavaScript • Python • C++ • HTML/CSS"
+      },
+      {
+        "label": "Backend & Microservices",
+        "value": "Spring Boot • Kafka • Redis • IBM MQ • IBM WebSphere • Node.js • Elastic"
+      },
+      {
+        "label": "Frontend",
+        "value": "Angular • React.js • Next.js • React Native"
+      },
+      {
+        "label": "Cloud & DevOps",
+        "value": "AWS • Azure • Docker • OpenShift • Jenkins • Terraform • Linux"
+      },
+      {
+        "label": "Databases",
+        "value": "SQL Server • IBM Db2 • Oracle • MySQL"
+      },
+      {
+        "label": "AI & Integration",
+        "value": "MCP Integration • Claude API • OpenAI API • Gemini API • LLM Workflows"
+      }
+    ]
+  },
+  "experience": [
+    {
+      "role": "Software Developer",
+      "organization": "The Saudi Investment Bank",
+      "startDate": "October 2025",
+      "endDate": "Present",
+      "description": "Working on Payments Manager & Trade Finance modules for enterprise core banking operations using Java, Spring Frameworks, IBM MQ, SQL Server, IBM Db2, and IBM WebSphere. Built microservices for the SWIFT MT→MX ISO 20022 (CBPR+) migration and engineered real-time sanction screening by integrating an external Watchlist system via AMLS, delivering an end-to-end compliance solution from concept to production."
+    },
+    {
+      "role": "Software Programming Analyst",
+      "organization": "Citi Bank",
+      "startDate": "July 2022",
+      "endDate": "September 2025",
+      "description": "Built and maintained CEAM Attestation & Workflow and Product Risk Monitoring applications for Citi's enterprise-wide risk inventory using Java, Spring, Kafka, Redis, and Angular. Boosted app responsiveness by 40% via async/batch processing, hardened security with JWT auth and RBAC, reached 85%+ SonarQube coverage, and accelerated delivery 2× with CI/CD pipelines on Jenkins and OpenShift."
+    },
+    {
+      "role": "Software Development Intern",
+      "organization": "Raptee Energy Inc.",
+      "startDate": "January 2021",
+      "endDate": "October 2021",
+      "description": "Built a serverless EV dashboard (Fossil) on AWS using Next.js, featuring Vehicle Tracking, Remote Monitoring, OTA updates, and Payment Gateway integration. Architected the data pipeline from raw vehicle telemetry into actionable insights using AWS EC2, DynamoDB, API Gateway, and Lambda Functions."
+    },
+    {
+      "role": "President",
+      "organization": "Graphique, NIT Trichy",
+      "startDate": "August 2019",
+      "endDate": "February 2021",
+      "description": "Led a team of 50 student designers and developers as president of NIT Trichy's official design club — managing budgets, member activities, and club operations across multiple large-scale projects."
+    },
+    {
+      "role": "Head of Design & Web Operations",
+      "organization": "Aaveg, NIT Trichy",
+      "startDate": "August 2019",
+      "endDate": "February 2021",
+      "description": "Led a team of 7 for Aaveg '20, the annual cultural and sports fest of NIT Trichy — overseeing all design deliverables and web operations for the event."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Technology — Production Engineering (Minor: Computer Applications)",
+      "institution": "National Institute of Technology, Trichy",
+      "startDate": "July 2018",
+      "endDate": "May 2022",
+      "description": "First Class graduate from NIT Tiruchirappalli — one of India's premier technical universities and an Institute of National Importance. Minor in Computer Applications, with a focus on software development alongside core engineering fundamentals. Winner of the Pragyan Hackathon 2022."
+    },
+    {
+      "degree": "High School",
+      "institution": "International Indian School, Riyadh",
+      "startDate": "April 2006",
+      "endDate": "March 2018",
+      "description": "One of the largest Indian schools globally with close to 9,500 students, located in Riyadh, Saudi Arabia. Strong foundation in sciences and mathematics leading to engineering studies."
+    }
+  ],
+  "services": [
+    {
+      "title": "Enterprise Backend Development",
+      "description": "Production-grade Java microservices with Spring Boot, Kafka, Redis, and IBM messaging — built for scale and reliability."
+    },
+    {
+      "title": "Full Stack Development",
+      "description": "End-to-end web applications using Angular, React, Next.js on the frontend and Node.js or Spring on the backend."
+    },
+    {
+      "title": "Banking & Payments Solutions",
+      "description": "Core banking modules, SWIFT ISO 20022 messaging, trade finance workflows, and real-time payment processing."
+    },
+    {
+      "title": "API Design & Integration",
+      "description": "RESTful API design, third-party integrations, IBM MQ messaging, and microservice orchestration."
+    },
+    {
+      "title": "AI & LLM Integration",
+      "description": "Integrating Claude, OpenAI, and Gemini APIs via MCP workflows to build AI-powered features and intelligent assistants."
+    },
+    {
+      "title": "Cloud & DevOps",
+      "description": "AWS, Azure, Docker, OpenShift, and Jenkins CI/CD pipelines — deploying software with confidence and speed."
+    }
+  ],
+  "portfolioCategories": [
+    "Motion Graphics",
+    "Graphic Design",
+    "Video Production",
+    "Digital Art"
+  ],
+  "portfolioHighlights": [
+    {
+      "title": "Graphic Inductions 2020",
+      "category": "Motion Graphics",
+      "description": "Motion graphics video created for Graphique NIT Trichy's induction event in 2020."
+    },
+    {
+      "title": "36 Days of Type",
+      "category": "Graphic Design",
+      "description": "A creative typography challenge — each day a new letter or number designed in a unique artistic style."
+    },
+    {
+      "title": "Festember '19 Aftermovie",
+      "category": "Video Production",
+      "description": "Official aftermovie for Festember 2019, the annual cultural festival of NIT Trichy."
+    },
+    {
+      "title": "My Artworks",
+      "category": "Digital Art",
+      "description": "A collection of digital illustrations and artwork created with Adobe Photoshop and Illustrator."
+    },
+    {
+      "title": "Aaveg '20 Theme Reveal",
+      "category": "Motion Graphics",
+      "description": "Theme reveal motion graphics video for Aaveg 2020, the annual cultural and sports fest of NIT Trichy."
+    },
+    {
+      "title": "Aaveg '20 Aftermovie",
+      "category": "Video Production",
+      "description": "Official aftermovie for Aaveg 2020, capturing the highlights of the annual cultural and sports fest."
+    }
+  ],
+  "contact": {
+    "email": "hameedibrh@gmail.com",
+    "location": "Riyadh, Saudi Arabia"
+  },
+  "social": [
+    {
+      "platform": "LinkedIn",
+      "url": "https://linkedin.com/in/hameedibrh"
+    },
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/hameedibrh"
+    },
+    {
+      "platform": "Instagram",
+      "url": "https://instagram.com/hameedibrh"
+    },
+    {
+      "platform": "Twitter",
+      "url": "https://twitter.com/hameedibrh"
+    },
+    {
+      "platform": "Behance",
+      "url": "https://behance.net/hameedibrh"
+    },
+    {
+      "platform": "YouTube",
+      "url": "https://youtube.com/hameedibrh"
+    }
+  ]
+}
