@@ -3,7 +3,7 @@
   "greeting": "Hello, World.",
   "roles": ["Software Developer", "Full Stack Engineer", "Banking & Payments Specialist", "AI Solutions Builder"],
   "tagline": "I build enterprise-grade software — from core banking systems to AI-powered applications.",
-  "bio": "Software Developer with 4 years of experience building enterprise banking applications across Payments, Trade Finance, AML, and Risk Management. Currently at The Saudi Investment Bank, working on SWIFT ISO 20022 migration and real-time sanction screening. I also build AI-enabled solutions, integrating LLM APIs and MCP workflows into production products.",
+  "bio": "Software Developer with 4 years of experience building enterprise banking applications across Payments, Trade Finance, AML, and Risk Management. Currently at The Saudi Investment Bank. I also build AI-enabled solutions, integrating LLM APIs and MCP workflows into production products.",
   "profileImage": "/images/profile-pic.webp",
   "profileImageAlt": "Hameed Ibrahim profile photo",
   "resumeImage": "/images/profile-pic2.webp",
