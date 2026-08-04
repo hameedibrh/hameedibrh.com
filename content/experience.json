@@ -4,7 +4,7 @@
     "organization": "The Saudi Investment Bank",
     "startDate": "October 2025",
     "endDate": "Present",
-    "description": "Working on Payments Manager & Trade Finance modules for enterprise core banking operations using Java, Spring Frameworks, IBM MQ, SQL Server, IBM Db2, and IBM WebSphere. Built microservices for the SWIFT MT→MX ISO 20022 (CBPR+) migration and engineered real-time sanction screening by integrating an external Watchlist system via AMLS, delivering an end-to-end compliance solution from concept to production."
+    "description": "Working on Payments Manager & Trade Finance modules for enterprise core banking operations using Java, Spring Frameworks, IBM MQ, SQL Server, IBM Db2, and IBM WebSphere. Built microservices for the SWIFT MT→MX ISO 20022 (CBPR+) migration and engineered real-time alerts system for Trade Operations, etx."
   },
   {
     "role": "Software Programming Analyst",
